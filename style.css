@@ -1,0 +1,150 @@
+body {
+  background-color: #fff8f0;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+body {
+  background-color: #fff8f0;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.main-image {
+  width: 90%;
+  max-width: 600px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+img {
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.btn {
+  display: inline-block;
+  background-color: #ff5e5e;
+  color: white;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #ff3b3b;
+}
+footer {
+  margin-top: 40px;
+  font-size: 14px;
+  color: #777;
+}
+/* ===== Responsive Design (Mobile Friendly) ===== */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .btn {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .main-image {
+    width: 100%;
+  }
+}
+footer {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #ffeded;
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+  border-top: 1px solid #ccc;
+}
+.about {
+  background-color: #fff0f0;
+  padding: 30px 20px;
+  margin-top: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 24px;
+  color: #ff4e4e;
+  margin-bottom: 15px;
+}
+
+.about p {
+  font-size: 16px;
+  color: #444;
+  line-height: 1.6;
+}
+.about-img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+.gallery {
+  padding: 30px 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.gallery h2 {
+  color: #ff4e4e;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.gallery-container img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.contact {
+  padding: 30px 20px;
+  background-color: #fffbe6;
+  text-align: center;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.contact h2 {
+  color: #ff4e4e;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.contact p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.contact .btn {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #ff4e4e;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
